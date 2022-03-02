@@ -1,14 +1,51 @@
 /* ===== font import ===== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    position: relative;
 }
 
+/* =====common css end===== */
 
-/* ===== common css ends ===== */
-
-.input-group{
+.input-group {
     padding: 30px !important;
 }
+
+.details-button {
+    width: 50%;
+    color: white;
+    background-color: #7c69ef !important;
+    border-radius: 10px !important;
+    font-weight: 700 !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+
+.cart-details {
+    width: 75%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: aliceblue !important;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#toogle-close {
+    color: red;
+    text-align: right;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* ===== css style ends */
