@@ -232,3 +232,21 @@ const moreBtnResult = (phones) => {
     searchResulShow.appendChild(div);
   });
 };
+
+// === error message ===
+const resultFound = () => {
+  const searchResulShow = document.getElementById("show-search-result");
+
+  const div = document.createElement("div");
+  div.classList.add("w-100");
+  div.innerHTML = `
+          <div class="alert alert-danger alert-dismissible fade show" role="alert">
+              <h5 class="fw-bold text-denger">
+                  <span class="text-danger"><i class='fas fa-exclamation-triangle'></i></span>
+                  <span class="text-danger">No data found..! Please search again.</span>
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+      `;
+  searchResulShow.appendChild(div);
+};
